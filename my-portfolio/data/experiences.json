@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer Intern",
+    "company": "Colab4Food",
+    "location": "Vairão, Portugal",
+    "startYear": "Mar 2024",
+    "endYear": "Jun 2024",
+    "description": "Developed a PowerApps-based workforce management application to streamline PTO and leave request workflows. Implemented calendar-based scheduling, approval routing, and justification tracking to improve visibility and automate manual HR processes within the organization.",
+    "tech": ["Microsoft PowerApps"]
+  },
+  {
+    "id": 2,
+    "title": "Software Engineer Intern",
+    "company": "ProActive Solutions Portugal",
+    "location": "Viana do Castelo, Portugal",
+    "startYear": "Oct 2023",
+    "endYear": "Feb 2024",
+    "description": "Developed a web-based platform for streamlined document organization and secure file sharing within a business environment.",
+    "tech": ["Java", "Angular", "MariaDB"]
+  }
+]

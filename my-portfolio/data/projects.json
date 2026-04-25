@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Systems Integration Platform",
+    "description": "Data processing system that automates ingestion, transformation, and storage of structured data for efficient querying and integration.",
+    "tech": ["Python", "PostgreSQL", "RabbitMQ", "Docker"],
+    "category": "Web Development",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/systems-integration-tp"
+  },
+  {
+    "id": 2,
+    "title": "Pet Clinic Management System",
+    "description": "Scalable backend system built with microservices architecture to manage business operations, authentication, and service communication.",
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "Keycloak",
+      "Docker",
+      "MySQL",
+      "MongoDB"
+    ],
+    "category": "Web Development",
+    "year": "2025",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/vet-clinic-microservices-spring"
+  },
+  {
+    "id": 3,
+    "title": "TaskMaster Mobile App",
+    "description": "Mobile application for managing tasks and projects with real-time data synchronization and a custom backend API.",
+    "tech": ["Kotlin", "JavaScript", "PostgreSQL"],
+    "category": "Mobile",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/TaskMaster"
+  },
+  {
+    "id": 4,
+    "title": "File Management System",
+    "description": "Web-based platform developed to streamline document organization and secure file sharing in a business environment.",
+    "tech": ["Java", "Angular", "MariaDB"],
+    "category": "Web Development",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/FileQuotaControl"
+  },
+  {
+    "id": 5,
+    "title": "SpendWise – Expense Management System",
+    "description": "Developed a web-based system for managing and analyzing personal expenses, featuring real-time aggregation of financial data across daily, weekly, and monthly periods.",
+    "tech": ["PHP", "MySQL", "Bootstrap"],
+    "category": "Web Development",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/SpendWise"
+  },
+  {
+    "id": 6,
+    "title": "Earthquake Data Analysis and Prediction System",
+    "description": "Built a data pipeline and applied multiple machine learning models (regression, classification, clustering, and neural networks) to analyze and predict seismic data, enabling comparison of model performance across different approaches.",
+    "tech": ["Python", "Pandas", "Scikit-learn", "TensorFlow"],
+    "category": "Data/ML",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": ""
+  },
+  {
+    "id": 7,
+    "title": "Twitter Sentiment Analysis System",
+    "description": "Developed a text classification pipeline to analyze and predict sentiment from large-scale Twitter data, including data preprocessing, feature extraction, and model training.",
+    "tech": ["Python", "Pandas", "Scikit-learn", "TensorFlow"],
+    "category": "Data/ML",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": ""
+  },
+  {
+    "id": 8,
+    "title": "Url Shortener",
+    "description": "Developed a text classification pipeline to analyze and predict sentiment from large-scale Twitter data, including data preprocessing, feature extraction, and model training.",
+    "tech": ["JavaScript", "React", "HTML", "CSS"],
+    "category": "Web Development",
+    "year": "2025",
+    "status": "Live",
+    "githubUrl": "",
+    "liveUrl": "https://url-shortener-frontend-oh0b72fl4-spartans-projects-6bf12660.vercel.app/"
+  }
+]
