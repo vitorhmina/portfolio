@@ -33,11 +33,11 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        'fixed top-0 z-50 w-full backdrop-blur-md bg-background/70 transition-all',
+        'fixed top-0 z-50 w-full backdrop-blur-md bg-background transition-all',
         scrolled && 'border-b border-border/60'
       )}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
         <div className="font-semibold text-lg md:text-xl tracking-tight leading-none">
           Vítor Mina
         </div>
@@ -75,14 +75,16 @@ export function Navbar() {
         <div className="flex items-center gap-2 md:gap-4">
           <ThemeToggle />
 
-          <Button
-            variant="ghost"
-            size="sm"
-            className="hidden sm:flex gap-2 text-base transition-colors hover:bg-muted dark:hover:bg-white/10"
-          >
-            <Download className="h-4 w-4" />
-            Resume
-          </Button>
+          <a href="/resume.pdf" download>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="hidden sm:flex gap-2 text-base transition-colors hover:bg-muted dark:hover:bg-white/10 px-4 py-4"
+            >
+              <Download className="h-4 w-4" />
+              Resume
+            </Button>
+          </a>
 
           <button
             onClick={() => setOpen(!open)}

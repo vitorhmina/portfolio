@@ -274,6 +274,56 @@ export default function Home() {
                     ))}
                   </div>
                 </div>
+
+                {(project.githubUrl || project.liveUrl) && (
+                  <div
+                    className="
+                    absolute inset-0
+                    m-auto w-fit h-fit
+
+                    flex items-center gap-3
+
+                    opacity-0 group-hover:opacity-100
+                    transition
+                  "
+                  >
+                    {project.liveUrl && (
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                        flex items-center gap-2
+                        text-base px-4 py-2 rounded-md border
+                        bg-background/80 backdrop-blur
+                        hover:bg-muted dark:hover:bg-white/10
+                        transition
+                      "
+                      >
+                        <ExternalLink className="w-5 h-5" />
+                        Live
+                      </a>
+                    )}
+
+                    {project.githubUrl && (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="
+                        flex items-center gap-2
+                        text-base px-4 py-2 rounded-md border
+                        bg-background/80 backdrop-blur
+                        hover:bg-muted dark:hover:bg-white/10
+                        transition
+                      "
+                      >
+                        <FaGithub className="w-5 h-5" />
+                        GitHub
+                      </a>
+                    )}
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -397,41 +447,44 @@ export default function Home() {
       {/* CONTACT */}
       <section
         id="contact"
-        className="min-h-screen flex items-center px-6 md:px-20"
+        className="
+        min-h-[60vh]
+        flex items-center
+        px-6 md:px-20
+
+        bg-[#101826]
+        dark:bg-[#010001]
+        text-white
+      "
       >
         <div className="w-full max-w-4xl mx-auto text-center">
-          {/* TITLE */}
           <h2 className="text-4xl font-light mb-8">Let's Work Together</h2>
 
-          {/* SUBTITLE */}
-          <p className="mt-4 text-muted-foreground text-base md:text-lg leading-relaxed">
+          <p className="mt-4 text-white/70 text-base md:text-lg leading-relaxed">
             I'm always interested in new opportunities and challenging projects.
             Let's discuss how we can build something great together.
           </p>
 
-          {/* BUTTONS */}
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            {/* GET IN TOUCH */}
             <a
               href="mailto:vitorhmina@gmail.com"
               className="
-                px-6 py-3 text-sm rounded-md
-                bg-foreground text-background
-                hover:opacity-90 transition
-                flex items-center gap-2
-              "
+              px-6 py-3 text-sm rounded-md
+              bg-white text-black
+              hover:opacity-90 transition
+              flex items-center gap-2
+            "
             >
-              <HiOutlineMail className="w-4 h-4" />
+              <HiOutlineMail className="w-4 h-4 text-black" />
               Get in Touch
             </a>
 
-            {/* DOWNLOAD RESUME */}
             <a
-              href="/resume.pdf" // change to your file
+              href="/resume.pdf"
               download
               className="
                 px-6 py-3 text-sm rounded-md border
-                hover:bg-muted transition
+                hover:bg-muted transition dark:border-white
                 flex items-center gap-2 dark:hover:bg-white/10
               "
             >
@@ -440,7 +493,6 @@ export default function Home() {
             </a>
           </div>
 
-          {/* SOCIALS (same as hero) */}
           <div className="mt-10 flex items-center justify-center gap-6 text-muted-foreground">
             <a
               href="https://github.com/vitorhmina"
