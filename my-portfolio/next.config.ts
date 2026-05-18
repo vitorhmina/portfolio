@@ -7,10 +7,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 
   trailingSlash: true,
-
-  basePath: isProd ? '/portfolio' : '',
-  assetPrefix: isProd ? '/portfolio/' : '',
-
   images: {
     unoptimized: true,
   },
