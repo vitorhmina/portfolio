@@ -1,16 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Systems Integration Platform",
-    "description": "Data processing system that automates ingestion, transformation, and storage of structured data for efficient querying and integration.",
-    "tech": ["Python", "PostgreSQL", "RabbitMQ", "Docker"],
-    "category": "Web Development",
-    "year": "2024",
-    "status": "Research",
-    "githubUrl": "https://github.com/vitorhmina/systems-integration-tp"
-  },
-  {
-    "id": 2,
     "title": "Pet Clinic Management System",
     "description": "Scalable backend system built with microservices architecture to manage business operations, authentication, and service communication.",
     "tech": [
@@ -28,6 +18,16 @@
     "githubUrl": "https://github.com/vitorhmina/vet-clinic-microservices-spring"
   },
   {
+    "id": 2,
+    "title": "File Management System",
+    "description": "Web-based platform developed to streamline document organization and secure file sharing in a business environment.",
+    "tech": ["Java", "Angular", "MariaDB"],
+    "category": "Web Development",
+    "year": "2024",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/FileQuotaControl"
+  },
+  {
     "id": 3,
     "title": "TaskMaster Mobile App",
     "description": "Mobile application for managing tasks and projects with real-time data synchronization and a custom backend API.",
@@ -39,13 +39,13 @@
   },
   {
     "id": 4,
-    "title": "File Management System",
-    "description": "Web-based platform developed to streamline document organization and secure file sharing in a business environment.",
-    "tech": ["Java", "Angular", "MariaDB"],
+    "title": "Systems Integration Platform",
+    "description": "Data processing system that automates ingestion, transformation, and storage of structured data for efficient querying and integration.",
+    "tech": ["Python", "PostgreSQL", "RabbitMQ", "Docker"],
     "category": "Web Development",
     "year": "2024",
     "status": "Research",
-    "githubUrl": "https://github.com/vitorhmina/FileQuotaControl"
+    "githubUrl": "https://github.com/vitorhmina/systems-integration-tp"
   },
   {
     "id": 5,
