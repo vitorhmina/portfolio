@@ -87,5 +87,25 @@
     "status": "Live",
     "githubUrl": "",
     "liveUrl": "https://url-shortener-frontend-oh0b72fl4-spartans-projects-6bf12660.vercel.app/"
+  },
+  {
+    "id": 9,
+    "title": "Patient Management Microservices System",
+    "description": "Distributed microservices system for managing patients, appointments, billing, and analytics using event-driven architecture with Kafka and CQRS-style read optimization.",
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "gRPC",
+      "Redis",
+      "PostgreSQL",
+      "Docker",
+      "Prometheus",
+      "Grafana"
+    ],
+    "category": "Web Development",
+    "year": "2026",
+    "status": "Research",
+    "githubUrl": "https://github.com/vitorhmina/patient-management"
   }
 ]
