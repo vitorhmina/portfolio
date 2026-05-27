@@ -75,7 +75,7 @@ export function Navbar() {
         <div className="flex items-center gap-2 md:gap-4">
           <ThemeToggle />
 
-          <a href="/resume.pdf" download>
+          <a href="/CV-ENG.PDF" download>
             <Button
               variant="ghost"
               size="sm"

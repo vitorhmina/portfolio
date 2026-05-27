@@ -553,7 +553,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/CV-ENG.PDF"
               download
               className="
                 px-6 py-3 text-sm rounded-md border
